@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlashCard-Editor</title>
+    <link rel="stylesheet" href="editor.css">
+</head>
+<body>
+    <div id="container-previous">
+        <a id="previous" href="flashcard/flashcard.html">V</a>
+    </div>
+    <div class="container-editor" id="editor">
+        <form id="form">
+            <h1 id="title">FlashCard Editor</h1>
+            <div class="content-front-card">
+                <label for="front-card">Front:</label>
+                <input type="text" id="front-card" required>
+            </div>
+            <div class="content-back-card">
+                <label for="back-card">Back:</label>
+                <input type="text" id="back-card" required>
+            </div>
+                <button id="save">Save</button>
+        </form>
+        <div id="btn-continue" class="hidden">
+            <button id="continue">Continue</button>
+        </div>
+    </div>
+    <script src="editor.js"></script>
+</body>
+</html>
